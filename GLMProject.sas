@@ -12,8 +12,9 @@ else response_new = 0;
 *creating dummies for dose;
 d2=0;d3=0;d4=0;
 if dose = 0.75 then d2 = 1; if dose = 1.5 then d3=1;if dose=3 then d4=1;
-
 run;
+
+*Printing imported dataset"
 proc print data = eg;
 run;
 
