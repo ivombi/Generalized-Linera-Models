@@ -2,6 +2,8 @@
 *Author:Kubam Ivo
 Purpose:GLM Project
 Date: 1/4/2019;
+
+*Importing data set;
 data eg;
 infile "D:\\Msc. Biostatistics\\Level One\\Second Semester\\General Linear Model\\Data Set\\EG.dat" firstobs=2;
 input id dose response;
