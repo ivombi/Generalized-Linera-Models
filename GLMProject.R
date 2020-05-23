@@ -1,3 +1,7 @@
+#Author: Kubam Ivo Mbi
+#Date: 1/4/2019
+
+
 #Setting working directory
 setwd("D:\\Msc. Biostatistics\\Level One\\Second Semester\\General Linear Model\\HomeWork")
 
