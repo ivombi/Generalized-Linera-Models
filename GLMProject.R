@@ -1,13 +1,13 @@
 #Setting working directory
 setwd("D:\\Msc. Biostatistics\\Level One\\Second Semester\\General Linear Model\\HomeWork")
 
-#Importind data set
+#Importing data set
 eg<-read.table(file.choose(),header=T,sep = "")
 head(eg)
 eg$response_new <-0 #Creating a new variable to hold binary response(malform and dead= 1 and normal=0)
 dim(eg)
 
-
+#Creating new variable
 eg$response_new[eg$response==3]=1
 eg$response_new[eg$response==2]=1
 
